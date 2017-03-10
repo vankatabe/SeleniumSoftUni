@@ -18,7 +18,7 @@ public class SoftUniTest {
     static final String LOGIN_USERNAME = "testtest";
     static final String LOGIN_PASSWORD = "testtest";
     @Before
-    public void setUp(){
+    public void setUp(){ // For explanation of the next row, see here: https://softuni.bg/forum/14444/homework-test-automation-introduction-selenium-lab-on-selenium#answer-37660
         System.setProperty("webdriver.gecko.driver", "C:\\Users\\vaneto\\Documents\\QA\\geckodriver-v0.14.0-win64\\geckodriver.exe");
         this.driver = new FirefoxDriver();
     this.driver
